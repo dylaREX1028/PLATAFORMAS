@@ -35,4 +35,4 @@ echo "Porcentaje de uso de CPU: $cpu_usage%"
 echo "Consumo de memoria: $mem_usage%"
 echo "Estado: $estado"
 echo "Path del ejecutable: $path_ejecutable"
-S
+

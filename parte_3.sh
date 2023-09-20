@@ -31,7 +31,7 @@ EOF
 # Obtencion del PID 
 pid=$!
 
-# Monitorear y registrar el consumo de CPU y memoria 
+# Monitorea y registra el consumo de CPU y memoria 
 echo "Tiempo (s) CPU (%) Memoria (%)" > "$log_file"
 while ps -p "$pid" > /dev/null; do
     timestamp=$(date +"%s")
@@ -41,7 +41,7 @@ while ps -p "$pid" > /dev/null; do
     sleep 1
 done
 
-# Detener el proceso y generar el gráfico
+# Detine el proceso y generar el gráfico
 detener_proceso_y_graficar
 
 exit 0
